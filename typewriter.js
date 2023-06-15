@@ -14,9 +14,6 @@ process.stdout.write(char + "\n");
 delay += 50;   
   
 }
-
 setTimeout (() => {
-  process.exit();
-}, delay + 100);
-
 console.log("\n");
+}, delay);
